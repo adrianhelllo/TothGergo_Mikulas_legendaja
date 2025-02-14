@@ -66,6 +66,7 @@ img {
     border-radius: 15px;
     padding: 5px;
 }
+<<<<<<< HEAD
 
 main {
     grid-template-columns: 1fr 1fr 1fr;
@@ -78,13 +79,32 @@ section {
 }
 
 @media screen and (max-width: 800px) {
+=======
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+section {
+    border: 1px solid red;
+}
+@media screen and (max-width:800px){
+>>>>>>> 6a44f67ad0c0448c57286aa3204604e7b28a9450
     main {
         grid-template-columns: 1fr 1fr;
     }
 }
+<<<<<<< HEAD
 
 @media screen and (max-width: 500px) {
     main {
         grid-template-columns: 1fr;
     }
 }
+=======
+@media screen and (max-width:500px){
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+>>>>>>> 6a44f67ad0c0448c57286aa3204604e7b28a9450
